@@ -16,5 +16,6 @@ describe("index.html", () => {
   it("has the href attribute of 'https://flatironschool.com'", () => {
     const aTag = document.querySelector("a");
     expect(aTag).to.have.attribute("href", "https://flatironschool.com");
-  });
-});
+}
+ 
+<a href="https://flatironschool.com>Flatiron School link</a> 
